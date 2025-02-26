@@ -10,6 +10,8 @@ include 'paquetes_turisticos.php';
     <title>Paquetes Turísticos</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="notificacion.css">
+    <link rel="stylesheet" href="cssadmin.css">
+    <link rel= "website icon" type="image/png" href="images/logo2.png">
 </head>
 <body>
 
@@ -22,6 +24,8 @@ include 'paquetes_turisticos.php';
         <a href="filtro.php" class="filter-button">🔍 Filtrar</a>
         <a href="registro.php" class="register-button">✍️ Registrar Destino</a>
         <a href="carrito.php" class="filter-button">🛒 Ver Carrito</a>
+        <a href="admin.php" class="admin-button">⚙️ Administración</a>
+
     </div>
 </header>
 
@@ -50,11 +54,18 @@ include 'paquetes_turisticos.php';
                 <p><?= $paquete->descripcion ?></p>
                 <p><strong>Duración:</strong> <?= $paquete->duracion ?></p>
                 <p><strong>Precio:</strong> $<?= number_format($paquete->precio, 0, ',', '.') ?></p>
-                <a href="agregar_al_carrito.php?id=<?= $paquete->id ?>" class="filter-button">Agregar al Carrito</a>
+                
+
+                <a href="agregar_al_carrito.php?id=<?= $paquete->id ?>" class="filter-button">🛒 Agregar al Carrito</a>
+
+
+                <a href="reservas.php?destino=<?= urlencode($paquete->nombre) ?>" class="reserve-button">📅 Agregar Reserva</a>
+
             </div>
         <?php endforeach; ?>
     </div>
 </main>
+
 
 </body>
 </html>

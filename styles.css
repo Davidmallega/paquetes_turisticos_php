@@ -297,3 +297,26 @@ form button:hover {
     margin: 5px 0;
 }
 
+
+
+.reserve-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Estilo del botón Agregar al Carrito */
+
+
+/* Estilo del botón Agregar Reserva */
+.reserve-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.reserve-button:hover {
+    background-color: #0056b3;
+}
