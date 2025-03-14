@@ -25,7 +25,7 @@ include 'paquetes_turisticos.php';
         <a href="registro.php" class="register-button">✍️ Registrar Destino</a>
         <a href="carrito.php" class="filter-button">🛒 Ver Carrito</a>
         <a href="admin.php" class="admin-button">⚙️ Administración</a>
-
+        <!-- Incluir BOTON FALTANTE ` -->
     </div>
 </header>
 
