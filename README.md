@@ -29,7 +29,7 @@ Este es un sistema web para la gestión y reserva de paquetes turísticos. Permi
 
 ## 💻 Instalación y ejecución
 
-1. Clona este repositorio en tu servidor local: git clone https://github.com/TU_USUARIO/paquetes_turisticos_php.git
+1. Clona este repositorio en tu servidor local: git clone https://github.com/davidmallega/paquetes_turisticos_php.git
 
 2. Coloca la carpeta del proyecto en la ruta de tu servidor (por ejemplo: `htdocs` en XAMPP).
 5. Abre el navegador y accede al proyecto: http://localhost/paquetes_turisticos_php
