@@ -12,6 +12,7 @@ include 'paquetes_turisticos.php';
     <link rel="stylesheet" href="notificacion.css">
     <link rel="stylesheet" href="cssadmin.css">
     <link rel= "website icon" type="image/png" href="images/logo2.png">
+
 </head>
 <body>
 
@@ -24,8 +25,11 @@ include 'paquetes_turisticos.php';
         <a href="filtro.php" class="filter-button">🔍 Filtrar</a>
         <a href="registro.php" class="register-button">✍️ Registrar Destino</a>
         <a href="carrito.php" class="filter-button">🛒 Ver Carrito</a>
-        <a href="admin.php" class="admin-button">⚙️ Administración</a>
         <!-- Incluir BOTON FALTANTE  -->
+         */boton faltante agregado*/
+
+        <a href="ver_reservas.php" class="filter-button">⚙️ ver ver_reservas</a>
+        
     </div>
 </header>
 
