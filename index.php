@@ -25,11 +25,10 @@ include 'paquetes_turisticos.php';
         <a href="filtro.php" class="filter-button">🔍 Filtrar</a>
         <a href="registro.php" class="register-button">✍️ Registrar Destino</a>
         <a href="carrito.php" class="filter-button">🛒 Ver Carrito</a>
-        <!-- Incluir BOTON FALTANTE  -->
+        <!-- Incluir BOTON FALTANTE  añlksdjlañskjdlkñajsdlñkajsd-->
          */boton faltante agregado*/
 
-        <a href="ver_reservas.php" class="filter-button">⚙️ ver ver_reservas</a>
-        
+         <a href="ver_reservas.php" class="filter-button" title="Ver todas tus reservas y detalles">⚙️ Ver Reservas</a>
     </div>
 </header>
 
